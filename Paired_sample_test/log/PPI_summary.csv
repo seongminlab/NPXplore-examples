@@ -1,0 +1,32 @@
+"Set","Status","Category","Reason","InputCount","MappedCount","NodeCount","EdgeCount","PDF","PNG","HTML"
+"All_DEPs","Success","Success","",2901,2869,2255,10274,TRUE,TRUE,TRUE
+"Pathway: Transport of small molecules","Success","Success","",63,63,36,41,TRUE,TRUE,TRUE
+"Pathway: Signal Transduction","Success","Success","",519,518,452,2097,TRUE,TRUE,TRUE
+"Pathway: Programmed Cell Death","Success","Success","",65,65,58,216,TRUE,TRUE,TRUE
+"Pathway: Metabolism of proteins","Success","Success","",350,350,277,608,TRUE,TRUE,TRUE
+"Pathway: Others","Success","Success","",1002,978,264,216,TRUE,TRUE,TRUE
+"Pathway: Vesicle-mediated transport","Success","Success","",161,159,132,341,TRUE,TRUE,TRUE
+"Pathway: Metabolism of RNA","Success","Success","",96,96,90,310,TRUE,TRUE,TRUE
+"Pathway: Gene expression (Transcription)","Success","Success","",206,205,183,521,TRUE,TRUE,TRUE
+"Pathway: Extracellular matrix organization","Success","Success","",93,93,88,328,TRUE,TRUE,TRUE
+"Pathway: Developmental Biology","Success","Success","",200,200,177,493,TRUE,TRUE,TRUE
+"Pathway: Immune System","Success","Success","",548,546,474,2797,TRUE,TRUE,TRUE
+"Pathway: Hemostasis","Success","Success","",153,149,123,319,TRUE,TRUE,TRUE
+"Pathway: Disease","Success","Success","",352,350,316,1306,TRUE,TRUE,TRUE
+"Pathway: DNA Repair","Success","Success","",50,50,44,151,TRUE,TRUE,TRUE
+"Pathway: Cell Cycle","Success","Success","",119,119,117,282,TRUE,TRUE,TRUE
+"Pathway: DNA Replication","Success","Success","",17,17,17,25,TRUE,TRUE,TRUE
+"Pathway: Cellular responses to stimuli","Success","Success","",142,140,117,300,TRUE,TRUE,TRUE
+"Pathway: Metabolism","Success","Success","",344,341,287,808,TRUE,TRUE,TRUE
+"Pathway: Cell-Cell communication","Success","Success","",34,34,28,59,TRUE,TRUE,TRUE
+"Pathway: Sensory Perception","Success","Success","",33,33,21,23,TRUE,TRUE,TRUE
+"Pathway: Chromatin organization","Success","Success","",26,26,19,22,TRUE,TRUE,TRUE
+"Pathway: Organelle biogenesis and maintenance","Success","Success","",60,60,47,115,TRUE,TRUE,TRUE
+"Pathway: Digestion and absorption","Success","Success","",6,5,2,1,TRUE,TRUE,TRUE
+"Pathway: Neuronal System","Success","Success","",47,47,32,48,TRUE,TRUE,TRUE
+"Pathway: Autophagy","Success","Success","",23,23,17,22,TRUE,TRUE,TRUE
+"Pathway: Protein localization","Success","Success","",28,28,24,38,TRUE,TRUE,TRUE
+"Pathway: Circadian Clock","Success","Success","",9,9,2,1,TRUE,TRUE,TRUE
+"Pathway: Reproduction","Success","Success","",13,13,6,3,TRUE,TRUE,TRUE
+"Pathway: Muscle contraction","Success","Success","",20,20,18,16,TRUE,TRUE,TRUE
+"Pathway: Drug ADME","Success","Success","",14,14,9,7,TRUE,TRUE,TRUE

@@ -1,0 +1,5 @@
+"Set","Database","Label","Stage","Status","Code","GeneCount","TermCount","SignificantTermCount","Reason"
+"down_regulated","GO_Biological_Process_2026","Biological_Process","Export","Success","Completed",166,1177,13,""
+"down_regulated","GO_Molecular_Function_2026","Molecular_Function","Export","Success","Completed",166,185,24,""
+"down_regulated","GO_Cellular_Component_2026","Cellular_Component","Export","Success","Completed",166,144,3,""
+"down_regulated","KEGG_2026","KEGG_pathway","Export","Success","Completed",166,134,9,""

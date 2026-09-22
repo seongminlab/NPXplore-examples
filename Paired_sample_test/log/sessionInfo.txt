@@ -1,0 +1,41 @@
+R version 4.5.2 (2025-10-31)
+Platform: aarch64-apple-darwin20
+Running under: macOS Tahoe 26.5.2
+
+Matrix products: default
+BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Asia/Seoul
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] NPXplore_1.0.0
+
+loaded via a namespace (and not attached):
+  [1] DBI_1.3.0           bitops_1.1-0        gridExtra_2.3.1     readxl_1.5.0        rlang_1.3.0         magrittr_2.0.5     
+  [7] otel_0.2.0          compiler_4.5.2      RSQLite_3.53.3      systemfonts_1.3.2   png_0.1-9           vctrs_0.7.3        
+ [13] stringr_1.6.0       pkgconfig_2.0.3     fastmap_1.2.0       backports_1.5.1     dbplyr_2.6.0        labeling_0.4.3     
+ [19] ggraph_2.2.2        caTools_1.18.4      rmarkdown_2.31      markdown_2.0        ragg_1.5.2          purrr_1.2.2        
+ [25] bit_4.6.0           xfun_0.60           WriteXLS_6.8.0      cachem_1.1.0        litedown_0.11       jsonlite_2.0.0     
+ [31] blob_1.3.0          tweenr_2.0.3        broom_1.0.13        R6_2.6.1            stringi_1.8.9       RColorBrewer_1.1-3 
+ [37] reticulate_1.46.0   car_3.1-5           cellranger_1.1.0    estimability_2.0.0  Rcpp_1.1.2          assertthat_0.2.1   
+ [43] knitr_1.51          Matrix_1.7-6        igraph_2.3.3        tidyselect_1.2.1    yaml_2.3.12         rstudioapi_0.19.0  
+ [49] abind_1.4-8         viridis_0.6.5       ggtext_0.1.2        enrichR_3.4         gplots_3.3.0        curl_8.0.0         
+ [55] lattice_0.23-1      tibble_3.3.1        plyr_1.8.9          withr_3.0.3         S7_0.2.2            askpass_1.2.1      
+ [61] evaluate_1.0.5      polyclip_1.10-7     zip_3.0.2           xml2_1.6.0          pillar_1.11.1       carData_3.0-6      
+ [67] KernSmooth_2.23-27  plotly_4.12.1       generics_0.1.4      ggplot2_4.0.3       commonmark_2.0.0    scales_1.4.0       
+ [73] xtable_1.8-8        chron_2.3-63        gtools_3.9.5        glue_1.8.1          pheatmap_1.0.13     emmeans_2.0.4      
+ [79] tools_4.5.2         data.table_1.18.6.1 RSpectra_0.16-2     openxlsx_4.2.8.1    gsubfn_0.7          visNetwork_2.1.4   
+ [85] mvtnorm_1.4-2       graphlayouts_1.2.5  tidygraph_1.3.1     grid_4.5.2          plotrix_3.8-14      tidyr_1.3.2        
+ [91] crosstalk_1.2.2     umap_0.2.10.0       duckdb_1.5.5        ggforce_0.5.0       proto_1.0.0         Formula_1.2-6      
+ [97] cli_3.6.6           textshaping_1.0.5   NbClust_3.0.1       sqldf_0.4-12        viridisLite_0.4.3   arrow_25.0.1       
+[103] dplyr_1.2.1         gtable_0.3.6        hash_2.2.6.4        digest_0.6.39       OlinkAnalyze_5.0.2  ggrepel_0.9.8      
+[109] rjson_0.2.23        STRINGdb_2.22.0     htmlwidgets_1.6.4   farver_2.1.2        memoise_2.0.1       htmltools_0.5.9    
+[115] lifecycle_1.0.5     httr_1.4.8          gridtext_0.1.6      openssl_2.4.2       bit64_4.8.4         MASS_7.3-66        

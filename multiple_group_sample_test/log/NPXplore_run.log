@@ -1,0 +1,247 @@
+NPXplore 1.0.0
+Started: 2026-09-12 15:55:13.200493
+Variable: Group
+logFC: 0 adj.p: 0.05
+[message] [38;5;250m[36mℹ[38;5;250m  More than one column names in `df` was associated with certain key. One was selected based on an ordered list:
+* "quant": "NPX" was selected. Options were "NPX" or "PCNormalizedNPX".
+Please use `preferred_names` to select a different column name.[39m
+[warning] [38;5;250m[34m"OID40764"[38;5;250m, [34m"OID40857"[38;5;250m, [34m"OID42179"[38;5;250m, [34m"OID42282"[38;5;250m, [34m"OID42294"[38;5;250m, [34m"OID42327"[38;5;250m, [34m"OID42394"[38;5;250m, [34m"OID42606"[38;5;250m, [34m"OID43241"[38;5;250m, [34m"OID43371"[38;5;250m, [34m"OID43738"[38;5;250m,
+[34m"OID43750"[38;5;250m, [34m"OID44351"[38;5;250m, [34m"OID44410"[38;5;250m, and [34m"OID44923"[38;5;250m have [34m"NPX"[38;5;250m = NA for all samples.
+[36mℹ[38;5;250m Consider running `clean_npx()` next![39m
+[message] [38;5;250m[34m5[38;5;250m assays exhibited assay QC warnings in column `AssayQC` of the dataset: [34m"OID44644"[38;5;250m, [34m"OID44671"[38;5;250m, [34m"OID45439"[38;5;250m, [34m"OID45441"[38;5;250m, and [34m"OID45474"[38;5;250m.
+[36mℹ[38;5;250m Consider running `clean_npx()` next![39m
+[message] [38;5;250mExcluding [34m15[38;5;250m assays with only [34m"NA"[38;5;250m values: [34m"OID40764"[38;5;250m, [34m"OID40857"[38;5;250m, [34m"OID42179"[38;5;250m, [34m"OID42282"[38;5;250m, [34m"OID42294"[38;5;250m, [34m"OID42327"[38;5;250m, [34m"OID42394"[38;5;250m, [34m"OID42606"[38;5;250m,
+[34m"OID43241"[38;5;250m, [34m"OID43371"[38;5;250m, [34m"OID43738"[38;5;250m, [34m"OID43750"[38;5;250m, [34m"OID44351"[38;5;250m, [34m"OID44410"[38;5;250m, and [34m"OID44923"[38;5;250m.
+[32m✔[38;5;250m Returning cleaned dataset.[39m
+[message] [38;5;250mExcluding [34m20[38;5;250m control samples: [34m"Sample_12"[38;5;250m, [34m"Sample_24"[38;5;250m, [34m"Sample_36"[38;5;250m, [34m"Sample_48"[38;5;250m, [34m"Sample_60"[38;5;250m, [34m"Sample_72"[38;5;250m, [34m"Sample_83"[38;5;250m, [34m"Sample_84"[38;5;250m,
+[34m"Sample_95"[38;5;250m, [34m"Sample_96"[38;5;250m, [34m"Sample_108"[38;5;250m, [34m"Sample_120"[38;5;250m, [34m"Sample_132"[38;5;250m, [34m"Sample_144"[38;5;250m, [34m"Sample_156"[38;5;250m, [34m"Sample_168"[38;5;250m, [34m"Sample_179"[38;5;250m, [34m"Sample_180"[38;5;250m,
+[34m"Sample_191"[38;5;250m, and [34m"Sample_192"[38;5;250m.
+[32m✔[38;5;250m Returning cleaned dataset.[39m
+[message] [38;5;250mExcluding [34m3233[38;5;250m datapoints from [34m2[38;5;250m samples flagged with [32mSampleQC[38;5;250m = [34m"FAIL"[38;5;250m: [34m"Sample_54"[38;5;250m and [34m"Sample_15"[38;5;250m.
+[32m✔[38;5;250m Returning cleaned dataset.[39m
+[message] [38;5;250mExcluding [34m24[38;5;250m control assays: [34m"OID45511"[38;5;250m, [34m"OID45519"[38;5;250m, [34m"OID45503"[38;5;250m, [34m"OID45512"[38;5;250m, [34m"OID45520"[38;5;250m, [34m"OID45504"[38;5;250m, [34m"OID45513"[38;5;250m, [34m"OID45521"[38;5;250m, [34m"OID45505"[38;5;250m,
+[34m"OID45514"[38;5;250m, [34m"OID45522"[38;5;250m, [34m"OID45506"[38;5;250m, [34m"OID45515"[38;5;250m, [34m"OID45523"[38;5;250m, [34m"OID45507"[38;5;250m, [34m"OID45516"[38;5;250m, [34m"OID45524"[38;5;250m, [34m"OID45508"[38;5;250m, …, [34m"OID45526"[38;5;250m, and [34m"OID45510"[38;5;250m.
+[32m✔[38;5;250m Returning cleaned dataset.[39m
+[message] [38;5;250mExcluding [34m685[38;5;250m datapoints from [34m5[38;5;250m assays flagged with [32mAssayQC[38;5;250m = [34m"WARN"[38;5;250m or [34m"Warning"[38;5;250m: [34m"OID44644"[38;5;250m, [34m"OID44671"[38;5;250m, [34m"OID45439"[38;5;250m, [34m"OID45441"[38;5;250m, and
+[34m"OID45474"[38;5;250m.
+[32m✔[38;5;250m Returning cleaned dataset.[39m
+[message] [38;5;250m[36mℹ[38;5;250m  More than one column names in `df` was associated with certain key. One was selected based on an ordered list:
+* "quant": "NPX" was selected. Options were "NPX" or "PCNormalizedNPX".
+Please use `preferred_names` to select a different column name.[39m
+[message] [NPXplore] Running statistical analysis for 171 samples.
+
+[message] ANOVA model fit to each assay: NPX~Group
+
+[message] [NPXplore] Saving UMAP and sample QC figures.
+
+[message] [NPXplore] Saving the full NPX heatmap; large panels can take several minutes.
+
+[message] [NPXplore] Saving individual boxplots: top 30 DEPs.
+
+[message] [NPXplore] Assay boxplots started.
+
+[message] [NPXplore] Assay boxplots complete.
+
+[message] [NPXplore] Saving DEP heatmaps and analysis figures.
+
+[message] Variables and covariates converted from character to factors: Group
+
+[message] Means estimated for each assay from ANOVA model: NPX~Group
+
+[message] [NPXplore] Clustering started.
+
+[message] [NPXplore] Clustering complete.
+
+[message] [NPXplore] GO functional analysis started.
+
+[message] [GeneOntology] Cluster_1 / GO_Biological_Process_2026: querying 992 Assay identifiers.
+
+[message] [Enrichr] submitting 992 Assay/gene identifiers to: GO_Biological_Process_2026
+
+[message] [GeneOntology] Cluster_1 / GO_Biological_Process_2026: Completed (3691 terms; 308 significant).
+
+[message] [GeneOntology] Cluster_1 / GO_Molecular_Function_2026: querying 992 Assay identifiers.
+
+[message] [Enrichr] submitting 992 Assay/gene identifiers to: GO_Molecular_Function_2026
+
+[message] [GeneOntology] Cluster_1 / GO_Molecular_Function_2026: Completed (659 terms; 81 significant).
+
+[message] [GeneOntology] Cluster_1 / GO_Cellular_Component_2026: querying 992 Assay identifiers.
+
+[message] [Enrichr] submitting 992 Assay/gene identifiers to: GO_Cellular_Component_2026
+
+[message] [GeneOntology] Cluster_1 / GO_Cellular_Component_2026: Completed (318 terms; 36 significant).
+
+[message] [GeneOntology] Cluster_1 / KEGG_2026: querying 992 Assay identifiers.
+
+[message] [Enrichr] submitting 992 Assay/gene identifiers to: KEGG_2026
+
+[message] [GeneOntology] Cluster_1 / KEGG_2026: Completed (304 terms; 77 significant).
+
+[message] [GeneOntology] Cluster_2 / GO_Biological_Process_2026: querying 1722 Assay identifiers.
+
+[message] [Enrichr] submitting 1722 Assay/gene identifiers to: GO_Biological_Process_2026
+
+[message] [GeneOntology] Cluster_2 / GO_Biological_Process_2026: Completed (4554 terms; 349 significant).
+
+[message] [GeneOntology] Cluster_2 / GO_Molecular_Function_2026: querying 1722 Assay identifiers.
+
+[message] [Enrichr] submitting 1722 Assay/gene identifiers to: GO_Molecular_Function_2026
+
+[message] [GeneOntology] Cluster_2 / GO_Molecular_Function_2026: Completed (881 terms; 47 significant).
+
+[message] [GeneOntology] Cluster_2 / GO_Cellular_Component_2026: querying 1722 Assay identifiers.
+
+[message] [Enrichr] submitting 1722 Assay/gene identifiers to: GO_Cellular_Component_2026
+
+[message] [GeneOntology] Cluster_2 / GO_Cellular_Component_2026: Completed (378 terms; 44 significant).
+
+[message] [GeneOntology] Cluster_2 / KEGG_2026: querying 1722 Assay identifiers.
+
+[message] [Enrichr] submitting 1722 Assay/gene identifiers to: KEGG_2026
+
+[message] [GeneOntology] Cluster_2 / KEGG_2026: Completed (337 terms; 52 significant).
+
+[message] [NPXplore] GO functional analysis complete.
+
+[message] [NPXplore] PPI network analysis started.
+
+[message] PPI: All_DEPs (2714 input proteins)
+
+[message] PPI: mapping 2714 input proteins to STRING identifiers...
+
+[message] PPI: All_DEPs - Success [Success]
+
+[message] PPI: Cluster_1 (992 input proteins)
+
+[message] PPI: Cluster_1 - Success [Success]
+
+[message] PPI: Cluster_2 (1722 input proteins)
+
+[message] PPI: Cluster_2 - Success [Success]
+
+[message] PPI: Pathway: Transport of small molecules (56 input proteins)
+
+[message] PPI: Pathway: Transport of small molecules - Success [Success]
+
+[message] PPI: Pathway: Signal Transduction (475 input proteins)
+
+[message] PPI: Pathway: Signal Transduction - Success [Success]
+
+[message] PPI: Pathway: Programmed Cell Death (63 input proteins)
+
+[message] PPI: Pathway: Programmed Cell Death - Success [Success]
+
+[message] PPI: Pathway: Metabolism of proteins (327 input proteins)
+
+[message] PPI: Pathway: Metabolism of proteins - Success [Success]
+
+[message] PPI: Pathway: Others (935 input proteins)
+
+[message] PPI: Pathway: Others - Success [Success]
+
+[message] PPI: Pathway: Metabolism of RNA (94 input proteins)
+
+[message] PPI: Pathway: Metabolism of RNA - Success [Success]
+
+[message] PPI: Pathway: Gene expression (Transcription) (193 input proteins)
+
+[message] PPI: Pathway: Gene expression (Transcription) - Success [Success]
+
+[message] PPI: Pathway: Disease (330 input proteins)
+
+[message] PPI: Pathway: Disease - Success [Success]
+
+[message] PPI: Pathway: Immune System (535 input proteins)
+
+[message] PPI: Pathway: Immune System - Success [Success]
+
+[message] PPI: Pathway: Vesicle-mediated transport (152 input proteins)
+
+[message] PPI: Pathway: Vesicle-mediated transport - Success [Success]
+
+[message] PPI: Pathway: Hemostasis (146 input proteins)
+
+[message] PPI: Pathway: Hemostasis - Success [Success]
+
+[message] PPI: Pathway: DNA Repair (52 input proteins)
+
+[message] PPI: Pathway: DNA Repair - Success [Success]
+
+[message] PPI: Pathway: Developmental Biology (178 input proteins)
+
+[message] PPI: Pathway: Developmental Biology - Success [Success]
+
+[message] PPI: Pathway: Cell Cycle (120 input proteins)
+
+[message] PPI: Pathway: Cell Cycle - Success [Success]
+
+[message] PPI: Pathway: DNA Replication (17 input proteins)
+
+[message] PPI: Pathway: DNA Replication - Success [Success]
+
+[message] PPI: Pathway: Cellular responses to stimuli (138 input proteins)
+
+[message] PPI: Pathway: Cellular responses to stimuli - Success [Success]
+
+[message] PPI: Pathway: Metabolism (319 input proteins)
+
+[message] PPI: Pathway: Metabolism - Success [Success]
+
+[message] PPI: Pathway: Cell-Cell communication (27 input proteins)
+
+[message] PPI: Pathway: Cell-Cell communication - Success [Success]
+
+[message] PPI: Pathway: Sensory Perception (29 input proteins)
+
+[message] PPI: Pathway: Sensory Perception - Success [Success]
+
+[message] PPI: Pathway: Extracellular matrix organization (84 input proteins)
+
+[message] PPI: Pathway: Extracellular matrix organization - Success [Success]
+
+[message] PPI: Pathway: Chromatin organization (25 input proteins)
+
+[message] PPI: Pathway: Chromatin organization - Success [Success]
+
+[message] PPI: Pathway: Organelle biogenesis and maintenance (62 input proteins)
+
+[message] PPI: Pathway: Organelle biogenesis and maintenance - Success [Success]
+
+[message] PPI: Pathway: Digestion and absorption (5 input proteins)
+
+[message] PPI: Pathway: Digestion and absorption - Skipped [NoInteractions]: No STRING interactions
+
+[message] PPI: Pathway: Neuronal System (40 input proteins)
+
+[message] PPI: Pathway: Neuronal System - Success [Success]
+
+[message] PPI: Pathway: Autophagy (22 input proteins)
+
+[message] PPI: Pathway: Autophagy - Success [Success]
+
+[message] PPI: Pathway: Protein localization (30 input proteins)
+
+[message] PPI: Pathway: Protein localization - Success [Success]
+
+[message] PPI: Pathway: Circadian Clock (8 input proteins)
+
+[message] PPI: Pathway: Circadian Clock - Success [Success]
+
+[message] PPI: Pathway: Reproduction (11 input proteins)
+
+[message] PPI: Pathway: Reproduction - Success [Success]
+
+[message] PPI: Pathway: Muscle contraction (18 input proteins)
+
+[message] PPI: Pathway: Muscle contraction - Success [Success]
+
+[message] PPI: Pathway: Drug ADME (11 input proteins)
+
+[message] PPI: Pathway: Drug ADME - Success [Success]
+
+[message] [NPXplore] PPI network analysis complete. Reason: No STRING interactions
+
+Completed: 2026-09-12 16:00:35.103487
+[message] [NPXplore] ANOVA analysis complete. Stage status: Assay boxplots=Success; GO=Success; PPI=Success.
+
