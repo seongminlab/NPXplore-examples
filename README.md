@@ -1,5 +1,7 @@
 # NPXplore examples
 
+example file download [here](https://github.com/seongminlab/NPXplore-examples/archive/refs/heads/main.zip)
+
 Example analysis outputs generated with [NPXplore](https://github.com/seongminlab/NPXplore), an R package for exploring Olink NPX data.
 
 This repository contains exported figures, statistical tables, QC reports, and analysis logs. Large example outputs are maintained separately from the R package so that users do not need to download them when installing NPXplore.
