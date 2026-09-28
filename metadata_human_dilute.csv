@@ -1,7 +1,7 @@
 SampleID,Condition,Group
-O4-a1,MMCC,NC
-O4-a2,MMCC,NC
-O4-a3,MMCC,NC
+O4-a1,MMCC,Negative_Control
+O4-a2,MMCC,Negative_Control
+O4-a3,MMCC,Negative_Control
 O4-b1,MMCC,0.001_human
 O4-b2,MMCC,0.001_human
 O4-b3,MMCC,0.001_human
