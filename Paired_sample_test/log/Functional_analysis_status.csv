@@ -1,4 +1,4 @@
 "Stage","Status","Code","Reason"
 "Clustering","NotRun","",""
-"GO","Success","",""
-"PPI","Success","",""
+"GO","Success","","No terms pass adjusted p-value <= 0.05; full results retained."
+"PPI","Success","","No STRING interactions; Too few input proteins"
