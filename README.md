@@ -4,6 +4,8 @@ example file download [here](https://github.com/seongminlab/NPXplore-examples/ar
 
 Example analysis outputs generated with [NPXplore](https://github.com/seongminlab/NPXplore), an R package for exploring Olink NPX data.
 
+Raw example NPX file from [PRIDE(AccessionID: PAD000002)](https://www.ebi.ac.uk/pride/archive/projects/PAD000002)
+
 This repository contains exported figures, statistical tables, QC reports, and analysis logs. Large example outputs are maintained separately from the R package so that users do not need to download them when installing NPXplore.
 
 > These examples use artificially generated demonstration data. They must not be used as research evidence or interpreted as findings from real individuals.
@@ -12,8 +14,8 @@ This repository contains exported figures, statistical tables, QC reports, and a
 
 | Directory | Analysis | What to explore |
 | --- | --- | --- |
-| [Paired_sample_test](Paired_sample_test/) | Two-group comparison using `Condition` (Healthy and Disease) | Differential expression, volcano plots, assay boxplots, GO/KEGG enrichment, and STRING networks |
-| [multiple_group_sample_test](multiple_group_sample_test/) | Multi-group comparison using `Group` (Healthy, Group_1, and Group_2) | ANOVA, post-hoc comparisons, DEP clustering, enrichment, and STRING networks |
+| [Paired_sample_test](Paired_sample_test/) | Two-group comparison using `Condition` (Healthy and Cancer) | Differential expression, volcano plots, assay boxplots, GO/KEGG enrichment, and STRING networks |
+| [multiple_group_sample_test](multiple_group_sample_test/) | Multi-group comparison using `Group` (Control, dilute human serum) | ANOVA, post-hoc comparisons, DEP clustering, enrichment, and STRING networks |
 
 `Paired_sample_test` retains the tutorial's directory name. The documented default two-group example uses an independent t-test; the directory name alone does not indicate a matched-pair analysis. See the package tutorial for paired-test options.
 

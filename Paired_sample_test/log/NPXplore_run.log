@@ -1,5 +1,5 @@
 NPXplore 1.0.0
-Started: 2026-09-28 18:10:46.459995
+Started: 2026-09-29 09:09:27.108341
 Variable: Condition
 logFC: 0 adj.p: 0.05
 [message] [38;5;250m[36mℹ[38;5;250m  More than one column names in `df` was associated with certain key. One was selected based on an ordered list:
@@ -21,7 +21,7 @@ Please use `preferred_names` to select a different column name.[39m
 [message] [38;5;250m[36mℹ[38;5;250m  More than one column names in `df` was associated with certain key. One was selected based on an ordered list:
 * "quant": "NPX" was selected. Options were "NPX" or "PCNormalizedNPX".
 Please use `preferred_names` to select a different column name.[39m
-[message] [NPXplore] Running statistical analysis for 42 samples.
+[message] [NPXplore] Running statistical analysis for 40 samples.
 
 [message] T-test is performed on Cancer - Healthy.
 
@@ -39,117 +39,133 @@ Please use `preferred_names` to select a different column name.[39m
 
 [message] [NPXplore] GO functional analysis started.
 
-[message] [GeneOntology] up_regulated / GO_Biological_Process_2026: querying 1149 Assay identifiers.
+[message] [GeneOntology] up_regulated / GO_Biological_Process_2026: querying 1235 Assay identifiers.
 
-[message] [Enrichr] submitting 1149 Assay/gene identifiers to: GO_Biological_Process_2026
+[message] [Enrichr] submitting 1235 Assay/gene identifiers to: GO_Biological_Process_2026
 
-[message] [GeneOntology] up_regulated / GO_Biological_Process_2026: Completed (3967 terms; 722 significant).
+[message] [GeneOntology] up_regulated / GO_Biological_Process_2026: Completed (4137 terms; 752 significant).
 
-[message] [GeneOntology] up_regulated / GO_Molecular_Function_2026: querying 1149 Assay identifiers.
+[message] [GeneOntology] up_regulated / GO_Molecular_Function_2026: querying 1235 Assay identifiers.
 
-[message] [Enrichr] submitting 1149 Assay/gene identifiers to: GO_Molecular_Function_2026
+[message] [Enrichr] submitting 1235 Assay/gene identifiers to: GO_Molecular_Function_2026
 
-[message] [GeneOntology] up_regulated / GO_Molecular_Function_2026: Completed (655 terms; 79 significant).
+[message] [GeneOntology] up_regulated / GO_Molecular_Function_2026: Completed (682 terms; 77 significant).
 
-[message] [GeneOntology] up_regulated / GO_Cellular_Component_2026: querying 1149 Assay identifiers.
+[message] [GeneOntology] up_regulated / GO_Cellular_Component_2026: querying 1235 Assay identifiers.
 
-[message] [Enrichr] submitting 1149 Assay/gene identifiers to: GO_Cellular_Component_2026
+[message] [Enrichr] submitting 1235 Assay/gene identifiers to: GO_Cellular_Component_2026
 
-[message] [GeneOntology] up_regulated / GO_Cellular_Component_2026: Completed (312 terms; 55 significant).
+[message] [GeneOntology] up_regulated / GO_Cellular_Component_2026: Completed (322 terms; 55 significant).
 
-[message] [GeneOntology] up_regulated / KEGG_2026: querying 1149 Assay identifiers.
+[message] [GeneOntology] up_regulated / KEGG_2026: querying 1235 Assay identifiers.
 
-[message] [Enrichr] submitting 1149 Assay/gene identifiers to: KEGG_2026
+[message] [Enrichr] submitting 1235 Assay/gene identifiers to: KEGG_2026
 
-[message] [GeneOntology] up_regulated / KEGG_2026: Completed (302 terms; 56 significant).
+[message] [GeneOntology] up_regulated / KEGG_2026: Completed (308 terms; 63 significant).
 
-[message] [GeneOntology] down_regulated / GO_Biological_Process_2026: querying 8 Assay identifiers.
+[message] [GeneOntology] down_regulated / GO_Biological_Process_2026: querying 6 Assay identifiers.
 
-[message] [Enrichr] submitting 8 Assay/gene identifiers to: GO_Biological_Process_2026
+[message] [Enrichr] submitting 6 Assay/gene identifiers to: GO_Biological_Process_2026
 
-[message] [GeneOntology] down_regulated / GO_Biological_Process_2026: Completed (68 terms; 38 significant).
+[message] [GeneOntology] down_regulated / GO_Biological_Process_2026: Completed (71 terms; 48 significant).
 
-[message] [GeneOntology] down_regulated / GO_Molecular_Function_2026: querying 8 Assay identifiers.
+[message] [GeneOntology] down_regulated / GO_Molecular_Function_2026: querying 6 Assay identifiers.
 
-[message] [Enrichr] submitting 8 Assay/gene identifiers to: GO_Molecular_Function_2026
+[message] [Enrichr] submitting 6 Assay/gene identifiers to: GO_Molecular_Function_2026
 
-[message] [GeneOntology] down_regulated / GO_Molecular_Function_2026: Completed (10 terms; 6 significant).
+[message] [GeneOntology] down_regulated / GO_Molecular_Function_2026: Completed (12 terms; 9 significant).
 
-[message] [GeneOntology] down_regulated / GO_Cellular_Component_2026: querying 8 Assay identifiers.
+[message] [GeneOntology] down_regulated / GO_Cellular_Component_2026: querying 6 Assay identifiers.
 
-[message] [Enrichr] submitting 8 Assay/gene identifiers to: GO_Cellular_Component_2026
+[message] [Enrichr] submitting 6 Assay/gene identifiers to: GO_Cellular_Component_2026
 
-[message] [GeneOntology] down_regulated / GO_Cellular_Component_2026: NoSignificantTerms (12 terms; 0 significant).
+[message] [GeneOntology] down_regulated / GO_Cellular_Component_2026: NoSignificantTerms (15 terms; 0 significant).
 
-[message] [GeneOntology] down_regulated / KEGG_2026: querying 8 Assay identifiers.
+[message] [GeneOntology] down_regulated / KEGG_2026: querying 6 Assay identifiers.
 
-[message] [Enrichr] submitting 8 Assay/gene identifiers to: KEGG_2026
+[message] [Enrichr] submitting 6 Assay/gene identifiers to: KEGG_2026
 
-[message] [GeneOntology] down_regulated / KEGG_2026: NoSignificantTerms (16 terms; 0 significant).
+[message] [GeneOntology] down_regulated / KEGG_2026: Completed (31 terms; 7 significant).
 
 [message] [NPXplore] GO functional analysis complete. Reason: No terms pass adjusted p-value <= 0.05; full results retained.
 
 [message] [NPXplore] PPI network analysis started.
 
-[message] PPI: All_DEPs (1157 input proteins)
+[message] PPI: All_DEPs (1241 input proteins)
 
-[message] PPI: mapping 1157 input proteins to STRING identifiers...
+[message] PPI: mapping 1241 input proteins to STRING identifiers...
 
 [message] PPI: All_DEPs - Success [Success]
 
-[message] PPI: Pathway: Signal Transduction (223 input proteins)
+[message] PPI: Pathway: Signal Transduction (236 input proteins)
 
 [message] PPI: Pathway: Signal Transduction - Success [Success]
 
-[message] PPI: Pathway: Others (347 input proteins)
+[message] PPI: Pathway: Vesicle-mediated transport (57 input proteins)
+
+[message] PPI: Pathway: Vesicle-mediated transport - Success [Success]
+
+[message] PPI: Pathway: Others (373 input proteins)
 
 [message] PPI: Pathway: Others - Success [Success]
 
-[message] PPI: Pathway: Gene expression (Transcription) (76 input proteins)
+[message] PPI: Pathway: Gene expression (Transcription) (82 input proteins)
 
 [message] PPI: Pathway: Gene expression (Transcription) - Success [Success]
 
-[message] PPI: Pathway: Immune System (286 input proteins)
+[message] PPI: Pathway: Immune System (302 input proteins)
 
 [message] PPI: Pathway: Immune System - Success [Success]
 
-[message] PPI: Pathway: Hemostasis (75 input proteins)
-
-[message] PPI: Pathway: Hemostasis - Success [Success]
-
-[message] PPI: Pathway: Programmed Cell Death (21 input proteins)
-
-[message] PPI: Pathway: Programmed Cell Death - Success [Success]
-
-[message] PPI: Pathway: Metabolism of proteins (150 input proteins)
+[message] PPI: Pathway: Metabolism of proteins (161 input proteins)
 
 [message] PPI: Pathway: Metabolism of proteins - Success [Success]
 
-[message] PPI: Pathway: Metabolism of RNA (29 input proteins)
+[message] PPI: Pathway: Cell Cycle (27 input proteins)
 
-[message] PPI: Pathway: Metabolism of RNA - Success [Success]
+[message] PPI: Pathway: Cell Cycle - Success [Success]
 
-[message] PPI: Pathway: Disease (129 input proteins)
+[message] PPI: Pathway: Organelle biogenesis and maintenance (14 input proteins)
 
-[message] PPI: Pathway: Disease - Success [Success]
+[message] PPI: Pathway: Organelle biogenesis and maintenance - Success [Success]
 
-[message] PPI: Pathway: Developmental Biology (85 input proteins)
+[message] PPI: Pathway: Hemostasis (79 input proteins)
+
+[message] PPI: Pathway: Hemostasis - Success [Success]
+
+[message] PPI: Pathway: Developmental Biology (93 input proteins)
 
 [message] PPI: Pathway: Developmental Biology - Success [Success]
 
-[message] PPI: Pathway: Cell Cycle (22 input proteins)
+[message] PPI: Pathway: Disease (141 input proteins)
 
-[message] PPI: Pathway: Cell Cycle - Success [Success]
+[message] PPI: Pathway: Disease - Success [Success]
+
+[message] PPI: Pathway: Autophagy (8 input proteins)
+
+[message] PPI: Pathway: Autophagy - Success [Success]
+
+[message] PPI: Pathway: Neuronal System (17 input proteins)
+
+[message] PPI: Pathway: Neuronal System - Success [Success]
+
+[message] PPI: Pathway: Cellular responses to stimuli (65 input proteins)
+
+[message] PPI: Pathway: Cellular responses to stimuli - Success [Success]
+
+[message] PPI: Pathway: Programmed Cell Death (22 input proteins)
+
+[message] PPI: Pathway: Programmed Cell Death - Success [Success]
+
+[message] PPI: Pathway: Metabolism of RNA (30 input proteins)
+
+[message] PPI: Pathway: Metabolism of RNA - Success [Success]
 
 [message] PPI: Pathway: DNA Replication (5 input proteins)
 
 [message] PPI: Pathway: DNA Replication - Success [Success]
 
-[message] PPI: Pathway: Cellular responses to stimuli (58 input proteins)
-
-[message] PPI: Pathway: Cellular responses to stimuli - Success [Success]
-
-[message] PPI: Pathway: Metabolism (110 input proteins)
+[message] PPI: Pathway: Metabolism (116 input proteins)
 
 [message] PPI: Pathway: Metabolism - Success [Success]
 
@@ -161,57 +177,41 @@ Please use `preferred_names` to select a different column name.[39m
 
 [message] PPI: Pathway: Cell-Cell communication - Success [Success]
 
-[message] PPI: Pathway: Sensory Perception (11 input proteins)
+[message] PPI: Pathway: Sensory Perception (14 input proteins)
 
 [message] PPI: Pathway: Sensory Perception - Success [Success]
 
-[message] PPI: Pathway: Extracellular matrix organization (73 input proteins)
+[message] PPI: Pathway: Extracellular matrix organization (77 input proteins)
 
 [message] PPI: Pathway: Extracellular matrix organization - Success [Success]
 
-[message] PPI: Pathway: Chromatin organization (4 input proteins)
+[message] PPI: Pathway: Chromatin organization (5 input proteins)
 
 [message] PPI: Pathway: Chromatin organization - Skipped [NoInteractions]: No STRING interactions
 
-[message] PPI: Pathway: DNA Repair (14 input proteins)
+[message] PPI: Pathway: DNA Repair (17 input proteins)
 
 [message] PPI: Pathway: DNA Repair - Success [Success]
 
-[message] PPI: Pathway: Vesicle-mediated transport (53 input proteins)
-
-[message] PPI: Pathway: Vesicle-mediated transport - Success [Success]
-
-[message] PPI: Pathway: Neuronal System (13 input proteins)
-
-[message] PPI: Pathway: Neuronal System - Success [Success]
-
-[message] PPI: Pathway: Autophagy (6 input proteins)
-
-[message] PPI: Pathway: Autophagy - Skipped [NoInteractions]: No STRING interactions
-
-[message] PPI: Pathway: Protein localization (10 input proteins)
+[message] PPI: Pathway: Protein localization (9 input proteins)
 
 [message] PPI: Pathway: Protein localization - Success [Success]
 
-[message] PPI: Pathway: Reproduction (3 input proteins)
+[message] PPI: Pathway: Reproduction (4 input proteins)
 
-[message] PPI: Pathway: Reproduction - Skipped [NoInteractions]: No STRING interactions
-
-[message] PPI: Pathway: Organelle biogenesis and maintenance (11 input proteins)
-
-[message] PPI: Pathway: Organelle biogenesis and maintenance - Success [Success]
+[message] PPI: Pathway: Reproduction - Success [Success]
 
 [message] PPI: Pathway: Drug ADME (4 input proteins)
 
 [message] PPI: Pathway: Drug ADME - Success [Success]
 
-[message] PPI: Pathway: Muscle contraction (6 input proteins)
-
-[message] PPI: Pathway: Muscle contraction - Success [Success]
-
 [message] PPI: Pathway: Digestion and absorption (2 input proteins)
 
 [message] PPI: Pathway: Digestion and absorption - Skipped [InsufficientInput]: Too few input proteins
+
+[message] PPI: Pathway: Muscle contraction (5 input proteins)
+
+[message] PPI: Pathway: Muscle contraction - Success [Success]
 
 [message] PPI: Pathway: Circadian Clock (1 input proteins)
 
@@ -219,6 +219,6 @@ Please use `preferred_names` to select a different column name.[39m
 
 [message] [NPXplore] PPI network analysis complete. Reason: No STRING interactions; Too few input proteins
 
-Completed: 2026-09-28 18:46:28.85483
+Completed: 2026-09-29 09:45:52.822903
 [message] [NPXplore] ttest_independent analysis complete. Stage status: Assay boxplots=Success; GO=Success; PPI=Success.
 

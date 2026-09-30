@@ -1,5 +1,5 @@
 NPXplore 1.0.0
-Started: 2026-09-28 20:15:19.911587
+Started: 2026-09-29 09:45:52.891948
 Variable: Group
 logFC: 0 adj.p: 0.05
 [message] [38;5;250m[36mℹ[38;5;250m  More than one column names in `df` was associated with certain key. One was selected based on an ordered list:
@@ -23,58 +23,20 @@ Please use `preferred_names` to select a different column name.[39m
 Please use `preferred_names` to select a different column name.[39m
 [message] [NPXplore] Running statistical analysis for 30 samples.
 
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
 [message] ANOVA model fit to each assay: NPX~Group
 
 [message] [NPXplore] Saving UMAP and sample QC figures.
 
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
 [message] [NPXplore] Saving the full NPX heatmap; large panels can take several minutes.
 
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
 [message] [NPXplore] Saving individual boxplots: all assays.
 
 [message] [NPXplore] Assay boxplots started.
 
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
 [message] [NPXplore] Assay boxplots complete.
 
 [message] [NPXplore] Saving DEP heatmaps and analysis figures.
 
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
 [message] Variables and covariates converted from character to factors: Group
 
 [message] Means estimated for each assay from ANOVA model: NPX~Group
@@ -83,8 +45,6 @@ Please use `preferred_names` to select a different column name.[39m
 
 [message] [NPXplore] Clustering complete.
 
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
-[warning] A control condition (Control, Healthy, Healthy Control, or HC) was not uniquely identified; the current condition order will be used.
 [message] [NPXplore] GO functional analysis started.
 
 [message] [GeneOntology] Cluster_1 / GO_Biological_Process_2026: querying 1056 Assay identifiers.
@@ -275,6 +235,6 @@ Please use `preferred_names` to select a different column name.[39m
 
 [message] [NPXplore] PPI network analysis complete.
 
-Completed: 2026-09-28 20:59:44.603023
+Completed: 2026-09-29 10:35:02.312959
 [message] [NPXplore] ANOVA analysis complete. Stage status: Assay boxplots=Success; GO=Success; PPI=Success.
 
