@@ -1,26 +1,40 @@
 NPXplore 1.0.0
-Started: 2026-09-29 09:45:52.891948
+Started: 2026-10-16 17:56:53.389451
 Variable: Group
 logFC: 0 adj.p: 0.05
-[message] [38;5;250m[36mℹ[38;5;250m  More than one column names in `df` was associated with certain key. One was selected based on an ordered list:
+[message] ℹ  More than one column names in `df` was associated with certain key. One was
+  selected based on an ordered list:
 * "quant": "NPX" was selected. Options were "NPX" or "PCNormalizedNPX".
-Please use `preferred_names` to select a different column name.[39m
-[message] [38;5;250m[34m1[38;5;250m assay exhibited assay QC warnings in column `AssayQC` of the dataset: [34m"OID45439"[38;5;250m.
-[36mℹ[38;5;250m Consider running `clean_npx()` next![39m
-[message] [38;5;250mExcluding [34m40[38;5;250m control samples: [34m"NEG_CTRL_14"[38;5;250m, [34m"NEG_CTRL_13"[38;5;250m, [34m"PLATE_CTRL_18"[38;5;250m, [34m"PLATE_CTRL_17"[38;5;250m, [34m"PLATE_CTRL_15"[38;5;250m, [34m"SAMPLE_CTRL_9"[38;5;250m,
-[34m"SAMPLE_CTRL_10"[38;5;250m, [34m"NEG_CTRL_5"[38;5;250m, [34m"PLATE_CTRL_6"[38;5;250m, [34m"PLATE_CTRL_1"[38;5;250m, [34m"NEG_CTRL_6"[38;5;250m, [34m"PLATE_CTRL_7"[38;5;250m, [34m"PLATE_CTRL_2"[38;5;250m, [34m"NEG_CTRL_7"[38;5;250m, [34m"PLATE_CTRL_8"[38;5;250m,
-[34m"PLATE_CTRL_3"[38;5;250m, [34m"SAMPLE_CTRL_4"[38;5;250m, [34m"NEG_CTRL_8"[38;5;250m, …, [34m"SAMPLE_CTRL_3"[38;5;250m, and [34m"NEG_CTRL_3"[38;5;250m.
-[32m✔[38;5;250m Returning cleaned dataset.[39m
-[message] [38;5;250mExcluding [34m421[38;5;250m datapoints from [34m4[38;5;250m samples flagged with [32mSampleQC[38;5;250m = [34m"FAIL"[38;5;250m: [34m"O5-25"[38;5;250m, [34m"O5-21"[38;5;250m, [34m"O5-10"[38;5;250m, and [34m"O5-26"[38;5;250m.
-[32m✔[38;5;250m Returning cleaned dataset.[39m
-[message] [38;5;250mExcluding [34m24[38;5;250m control assays: [34m"OID45511"[38;5;250m, [34m"OID45519"[38;5;250m, [34m"OID45503"[38;5;250m, [34m"OID45512"[38;5;250m, [34m"OID45520"[38;5;250m, [34m"OID45504"[38;5;250m, [34m"OID45513"[38;5;250m, [34m"OID45521"[38;5;250m, [34m"OID45505"[38;5;250m,
-[34m"OID45514"[38;5;250m, [34m"OID45522"[38;5;250m, [34m"OID45506"[38;5;250m, [34m"OID45515"[38;5;250m, [34m"OID45523"[38;5;250m, [34m"OID45507"[38;5;250m, [34m"OID45516"[38;5;250m, [34m"OID45524"[38;5;250m, [34m"OID45508"[38;5;250m, …, [34m"OID45526"[38;5;250m, and [34m"OID45510"[38;5;250m.
-[32m✔[38;5;250m Returning cleaned dataset.[39m
-[message] [38;5;250mExcluding [34m92[38;5;250m datapoints from [34m1[38;5;250m assay flagged with [32mAssayQC[38;5;250m = [34m"WARN"[38;5;250m or [34m"Warning"[38;5;250m: [34m"OID45439"[38;5;250m.
-[32m✔[38;5;250m Returning cleaned dataset.[39m
-[message] [38;5;250m[36mℹ[38;5;250m  More than one column names in `df` was associated with certain key. One was selected based on an ordered list:
+Please use `preferred_names` to select a different column name.
+[message] duckdb is storing downloaded extensions and secrets under ~/.duckdb:
+ℹ /Users/seongmin/.duckdb
+This persists across sessions and is shared with the DuckDB CLI and other clients.
+ℹ Run duckdb(shared_home = FALSE) to use a temporary directory instead.
+ℹ See ?duckdb_storage for details and alternatives.
+[message] 1 assay exhibited assay QC warnings in column `AssayQC` of the dataset:
+"OID45439".
+ℹ Consider running `clean_npx()` next!
+[message] Excluding 40 control samples: "NEG_CTRL_14", "NEG_CTRL_13", "PLATE_CTRL_18",
+"PLATE_CTRL_17", "PLATE_CTRL_15", "SAMPLE_CTRL_9", "SAMPLE_CTRL_10",
+"NEG_CTRL_5", "PLATE_CTRL_6", "PLATE_CTRL_1", "NEG_CTRL_6", "PLATE_CTRL_7",
+"PLATE_CTRL_2", "NEG_CTRL_7", "PLATE_CTRL_8", "PLATE_CTRL_3", "SAMPLE_CTRL_4",
+"NEG_CTRL_8", …, "SAMPLE_CTRL_3", and "NEG_CTRL_3".
+✔ Returning cleaned dataset.
+[message] Excluding 421 datapoints from 4 samples flagged with SampleQC = "FAIL":
+"O5-25", "O5-21", "O5-10", and "O5-26".
+✔ Returning cleaned dataset.
+[message] Excluding 24 control assays: "OID45511", "OID45519", "OID45503", "OID45512",
+"OID45520", "OID45504", "OID45513", "OID45521", "OID45505", "OID45514",
+"OID45522", "OID45506", "OID45515", "OID45523", "OID45507", "OID45516",
+"OID45524", "OID45508", …, "OID45526", and "OID45510".
+✔ Returning cleaned dataset.
+[message] Excluding 92 datapoints from 1 assay flagged with AssayQC = "WARN" or
+"Warning": "OID45439".
+✔ Returning cleaned dataset.
+[message] ℹ  More than one column names in `df` was associated with certain key. One was
+  selected based on an ordered list:
 * "quant": "NPX" was selected. Options were "NPX" or "PCNormalizedNPX".
-Please use `preferred_names` to select a different column name.[39m
+Please use `preferred_names` to select a different column name.
 [message] [NPXplore] Running statistical analysis for 30 samples.
 
 [message] ANOVA model fit to each assay: NPX~Group
@@ -235,6 +249,6 @@ Please use `preferred_names` to select a different column name.[39m
 
 [message] [NPXplore] PPI network analysis complete.
 
-Completed: 2026-09-29 10:35:02.312959
+Completed: 2026-10-16 18:39:38.339251
 [message] [NPXplore] ANOVA analysis complete. Stage status: Assay boxplots=Success; GO=Success; PPI=Success.
 
