@@ -5,7 +5,7 @@ The pipeline receives only data, metadata, output_dir and (for the multi-group r
 All other pipeline arguments use their recorded defaults. Functional stages may depend on external services; their actual statuses are recorded.
 
 A Git commit identifies the baseline. SourceDirty and SourceSnapshotMatchesGitHead disclose local changes; source_manifest.csv pins the exact source and inputs.
-Each log directory contains run_manifest.csv, source_manifest.csv, pipeline_defaults.csv, sample_membership.csv and sessionInfo.txt.
+Each log directory contains run_manifest.csv, source_manifest.csv, pipeline_defaults.csv, sample_membership.csv and sessionInfo.txt. The session file records R and package versions.
 
 | Example | Version | Git baseline | Dirty snapshot | Samples | Assays tested | DEPs | Run status |
 | --- | --- | --- | --- | ---: | ---: | ---: | --- |

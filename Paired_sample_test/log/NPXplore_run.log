@@ -6,11 +6,6 @@ logFC: 0 adj.p: 0.05
   selected based on an ordered list:
 * "quant": "NPX" was selected. Options were "NPX" or "PCNormalizedNPX".
 Please use `preferred_names` to select a different column name.
-[message] duckdb is storing downloaded extensions and secrets under ~/.duckdb:
-ℹ /Users/seongmin/.duckdb
-This persists across sessions and is shared with the DuckDB CLI and other clients.
-ℹ Run duckdb(shared_home = FALSE) to use a temporary directory instead.
-ℹ See ?duckdb_storage for details and alternatives.
 [message] 1 assay exhibited assay QC warnings in column `AssayQC` of the dataset:
 "OID45439".
 ℹ Consider running `clean_npx()` next!

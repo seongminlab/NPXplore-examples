@@ -61,7 +61,7 @@ Both example directories follow this layout:
 | `Results/DEPs/` | Differential-expression plots and, where applicable, clustering outputs |
 | `Results/GeneOntology/` | Functional-enrichment tables and figures |
 | `Results/STRING_PPI/` | Protein interaction networks, network tables, and pathway-specific outputs |
-| `log/` | Run messages, package/session information, and GO/PPI diagnostics |
+| `log/` | Run messages, R/package versions, and GO/PPI diagnostics |
 
 To check how a run completed, start with `log/NPXplore_run.log` and `log/Functional_analysis_status.csv`. For enrichment and interaction-network details, inspect `GO_diagnostics.csv`, `PPI_summary.csv`, and the mapping files in the same folder. Some analyses may have no significant terms or eligible networks; consult the diagnostics when an expected output is absent.
 
@@ -93,7 +93,7 @@ Both runs use `npx_pipeline()` defaults, including `include_warn = TRUE`, `inclu
 
 The previous 1,241-DEP export included a final FAIL sample and does not match the current inputs and QC defaults; it is superseded. The old concentration labels in multi-group outputs are also superseded by the input metadata’s Control/Dilute labels; Control denotes the analysis reference, not a clinical cohort.
 
-Each example records `log/run_manifest.csv`, `log/source_manifest.csv`, `log/input_manifest.csv`, `log/pipeline_defaults.csv`, `log/sample_membership.csv`, and `log/sessionInfo.txt`. These record the package version, source Git commit and working-tree state, exact source/input SHA-256 hashes, parameters, sample selection, counts, and environment. The executed source snapshot is commit `bd5eb80baec7edfdc9ac7d9bb7f7429add79c87e` (NPXplore 1.0.0). It is preserved in `source-revision.bundle`; this is a local reproducibility snapshot, not a published release tag. Consult `REPRODUCIBILITY.md` for the generated run summary and stage statuses. A dirty working-tree flag means the base commit alone does not contain every revision; use the source manifest to identify the code actually executed.
+Each example records `log/run_manifest.csv`, `log/source_manifest.csv`, `log/input_manifest.csv`, `log/pipeline_defaults.csv`, `log/sample_membership.csv`, and `log/sessionInfo.txt`. These record the package version, source Git commit and working-tree state, exact source/input SHA-256 hashes, parameters, sample selection, counts, and R/package versions. The executed source snapshot is commit `bd5eb80baec7edfdc9ac7d9bb7f7429add79c87e` (NPXplore 1.0.0). It is preserved in `source-revision.bundle`; this is a local reproducibility snapshot, not a published release tag. Consult `REPRODUCIBILITY.md` for the generated run summary and stage statuses. A dirty working-tree flag means the base commit alone does not contain every revision; use the source manifest to identify the code actually executed.
 
 To recover the exact source in a fresh clone containing the baseline commit:
 
